@@ -3,3 +3,7 @@ img {
     border-radius: 20%; 
     padding:3px;
 }
+
+#bgc {
+    background-color: aliceblue;
+}
