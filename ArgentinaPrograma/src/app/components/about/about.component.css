@@ -6,9 +6,29 @@ div {
     background-color: whitesmoke;
 }
 
-#name {
+.img-fluid {
+    border-radius: 50%;
+}
+
+.img-fluid:hover {
+    transform: rotate(50deg);
+    
+}
+
+.img-fluid:active {
+    image-rendering:pixelated;
+}
+.name {
     font-size: 30px;
     font-weight: bold ;
-    margin-top: 50%0%;
+    margin-top: 50% 0%;
     margin-left: 10%;
+}
+
+.fs {
+    font-size: 25px;
+    font-weight: bold ;
+    margin-top: 10%;
+
+
 }
