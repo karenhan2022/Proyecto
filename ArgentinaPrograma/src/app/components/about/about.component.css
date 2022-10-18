@@ -1,21 +1,26 @@
 .row {
+    width: 100%;
     padding: 30px;
+    margin-left: 40px;
+    background-color:whitesmoke;
 }
 
 div {
     background-color: whitesmoke;
 }
 
-.img-fluid {
+.photo {
+    width: 100%;
     border-radius: 50%;
+    
 }
 
-.img-fluid:hover {
+.photo:hover {
     transform: rotate(50deg);
     
 }
 
-.img-fluid:active {
+.photo:active {
     image-rendering:pixelated;
 }
 .name {
@@ -29,6 +34,26 @@ div {
     font-size: 25px;
     font-weight: bold ;
     margin-top: 10%;
+}
+
+.sobre {
+    margin-top: 5%;
+}
 
 
+/* mobile view */
+
+@media (max-width: 678px) {
+
+div{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo {
+    width: 50%;
+}
 }
