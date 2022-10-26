@@ -1,17 +1,18 @@
 .row {
     width: 100%;
-    padding: 30px;
-    margin-left: 40px;
-    background-color:whitesmoke;
+    padding: 40px;
+    margin-left: 0px;
+    background-color: white;
 }
 
-div {
-    background-color: whitesmoke;
-}
+
 
 .photo {
-    width: 100%;
-    border-radius: 50%;
+    width: 80%;
+    border: 5px solid darkkhaki;
+    border-radius: 10%;
+    margin-left: 10%;
+   
     
 }
 
@@ -23,21 +24,27 @@ div {
 .photo:active {
     image-rendering:pixelated;
 }
+
 .name {
-    font-size: 30px;
-    font-weight: bold ;
-    margin-top: 50% 0%;
-    margin-left: 10%;
+    align-items: center;
+    margin-left: 3%;
 }
 
 .fs {
-    font-size: 25px;
-    font-weight: bold ;
-    margin-top: 10%;
+    margin: 3%; 
+}
+
+.name p {
+    margin-left: 3%;
+}
+.about p {
+    font-size: 1em;
+
 }
 
 .sobre {
-    margin-top: 5%;
+    position: static;
+   
 }
 
 
@@ -55,5 +62,17 @@ div{
 
 .photo {
     width: 50%;
+}
+
+.name {
+    margin: 20px;
+}
+
+.fs {
+    font-size: 1.4em;
+}
+
+.p {
+    font-size: medium;
 }
 }

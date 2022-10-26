@@ -1,14 +1,33 @@
 .row {
+    margin: 0 auto;
     text-align: center;
-    background-color:dimgray;
-    padding: 10%;
+    background-color: rgb(87, 83, 87);
+    padding: 5%;
+    
 }
 
-
+h1 {
+    color: bisque;
+}
 
 h3 {
     margin:  20px 10px -40px 10px;
     padding: 15px 20px;
-
+    color: antiquewhite;
 }
+
+.circle {
+    width: 28%;
+    padding: 0 0 20px 20px;
+}
+
+@media screen (max-width: 450px;) {
+    .circle {
+        width: 30%;
+        padding: 0 0 20px 20px;
+    }}
+    
+
+
+
 

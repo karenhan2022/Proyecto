@@ -1,13 +1,17 @@
 div {
-    background-color: antiquewhite;
-    margin-left: 20px;
+    background-color: white;
+    width: 100%;   
 }
 
 .row {
-    padding:30px;
+    padding: 5% 5% 0;
+    margin: auto;
+    margin-top: -40px;
 
+}  
+
+p {
+    font-size: 1.2em;
 }
-
-
 
 
