@@ -65,47 +65,47 @@
 
 @media (max-width: 678px) {
 
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 2%;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
 
-}
+    }
 
-.photo {
-    width: 40%;
-    position: absolute;
-    margin: -50px -10px -5px 0;
-}
+    .photo {
+        width: 40%;
+        position: absolute;
+        margin: -50px -10px -5px 0;
+    }
 
-.name {
-    margin: 20px;
-}
+    .name {
+        margin: 20px;
+    }
 
-.fs {
-    font-size: 1.4em;
-}
+    .fs {
+        font-size: 1.4em;
+    }
 
-.photo:hover {
-    background-color: rgb(87, 83, 87);
-    transition-duration: 200ms;
+    .photo:hover {
+        background-color: rgb(87, 83, 87);
+        transition-duration: 200ms;
 
-}
+    }
 
-.photo:active {
-    transform: scale(120%);
-    transition-duration: 200ms;
-}
+    .photo:active {
+        transform: scale(120%);
+        transition-duration: 200ms;
+    }
 
-.p {
-    font-size: medium;
-}
+    .p {
+        font-size: medium;
+    }
 
-.about {
-    text-align: center;
-}
+    .about {
+        text-align: center;
+    }
 
 
 }
@@ -113,47 +113,47 @@ div{
 @media (max-width:1020px) {
 
     
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 2%;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
 
-}
+    }
 
-.photo {
-    width: 25%;
-    position: absolute;
-    margin: -50px -10px -5px 0;
-}
+    .photo {
+        width: 25%;
+        position: absolute;
+        margin: -50px -10px -5px 0;
+    }
 
-.name {
-    margin: 20px;
-}
+    .name {
+        margin: 20px;
+    }
 
-.fs {
-    font-size: 1.2em;
-}
+    .fs {
+        font-size: 1.2em;
+    }
 
-.photo:hover {
-    background-color: rgb(87, 83, 87);
-    transition-duration: 200ms;
+    .photo:hover {
+        background-color: rgb(87, 83, 87);
+        transition-duration: 200ms;
 
-}
+    }
 
-.photo:active {
-    transform: scale(120%);
-    transition-duration: 200ms;
-}
+    .photo:active {
+        transform: scale(120%);
+        transition-duration: 200ms;
+    }
 
-.p {
-    font-size: medium;
-}
+    .p {
+        font-size: medium;
+    }
 
-.about {
-    text-align: center;
-}
+    .about {
+        text-align: center;
+    }
 
 
 }

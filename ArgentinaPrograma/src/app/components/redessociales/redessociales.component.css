@@ -14,3 +14,9 @@ img {
     scale: 140%;
     transition: 200ms;
 }
+
+@media (max-width:1020px) {
+    img {
+        margin-top: -40px;
+    }
+}
