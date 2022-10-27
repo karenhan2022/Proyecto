@@ -1,34 +1,160 @@
 .row {
+    width: 100%;
     padding: 30px;
-}
-
-div {
+    margin-left: 0px;
     background-color: whitesmoke;
 }
 
-.img-fluid {
-    border-radius: 50%;
-}
 
-.img-fluid:hover {
-    transform: rotate(50deg);
+
+.photo {
+
+    width: 18%;
+    position: absolute;
+    border-radius: 10%;
+    margin: -15px 0px 10px 30px;
+
+    background-color:lightgrey;
+    border-radius: 10%;
+    border: 10px solid white;
+    box-shadow: 2px 2px 5px;
+   /*
+    width: 20%;
+    position: absolute;
+    margin: -120px 0px -5px 0;
+    background-color:lightgrey;
+    border-radius: 10%;
+    border: 10px solid white;
+    box-shadow: 2px 2px 5px;
+    */
+
+
+    /*
+    width: 120%;
+    position: relative;
+    border: 5px solid darkkhaki;
+    border-radius: 10%;
+    margin-left: 10%;
+   */
     
 }
 
-.img-fluid:active {
-    image-rendering:pixelated;
+.photo:hover {
+    background-color: rgb(87, 83, 87);
+
 }
+
+.photo:active {
+    transform: scale(120%);
+    transition-duration: 400ms;
+}
+
 .name {
-    font-size: 30px;
-    font-weight: bold ;
-    margin-top: 50% 0%;
-    margin-left: 10%;
-}
-
-.fs {
-    font-size: 25px;
-    font-weight: bold ;
-    margin-top: 10%;
-
+    align-items: center;
+    color: rgb(87, 83, 87);
 
 }
+
+
+.sobre {
+    position: static;  
+}
+
+
+/* mobile view */
+
+@media (max-width: 678px) {
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
+
+    }
+
+    .photo {
+        width: 40%;
+        position: absolute;
+        margin: -50px -10px -5px 0;
+    }
+
+    .name {
+        margin: 20px;
+    }
+
+    .fs {
+        font-size: 1.4em;
+    }
+
+    .photo:hover {
+        background-color: rgb(87, 83, 87);
+        transition-duration: 200ms;
+
+    }
+
+    .photo:active {
+        transform: scale(120%);
+        transition-duration: 200ms;
+    }
+
+    .p {
+        font-size: medium;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:1020px) {
+
+    
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
+
+    }
+
+    .photo {
+        width: 25%;
+        position: absolute;
+        margin: -50px -10px -5px 0;
+    }
+
+    .name {
+        margin: 20px;
+    }
+
+    .fs {
+        font-size: 1.2em;
+    }
+
+    .photo:hover {
+        background-color: rgb(87, 83, 87);
+        transition-duration: 200ms;
+
+    }
+
+    .photo:active {
+        transform: scale(120%);
+        transition-duration: 200ms;
+    }
+
+    .p {
+        font-size: medium;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+
+}
+

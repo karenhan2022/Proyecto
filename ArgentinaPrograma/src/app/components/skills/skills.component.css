@@ -1,5 +1,27 @@
 .row {
+    margin: 0 auto;
     text-align: center;
-    background-color:antiquewhite;
-    padding: 10%;
+    background-color: rgb(87, 83, 87);
+    padding: 5%;
+    
 }
+
+h2 {
+    color: bisque;
+}
+
+.circle {
+    width: 28%;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: bisque;
+    font-size: 1.6em;
+}
+
+
+
+    
+
+
+
+

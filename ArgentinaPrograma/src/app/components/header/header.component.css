@@ -1,10 +1,26 @@
 div{
+    background-color: rgb(87, 83, 87);
+    /*
     background-color: rgb(145, 131, 81);
-}
+    */
+    width: 100%;
+    max-height: 90px;
 
+}
 
 app-redessociales {
     float:right;
     margin-top: 40px;
     margin-right: 5%;
+}
+
+@media (max-width:1020px) {
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+    
+    }
 }

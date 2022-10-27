@@ -4,6 +4,19 @@ img {
     padding:3px;
 }
 
+
+
 #bgc {
     background-color: aliceblue;
+}
+
+#bgc:hover {
+    scale: 140%;
+    transition: 200ms;
+}
+
+@media (max-width:1020px) {
+    img {
+        margin-top: -40px;
+    }
 }

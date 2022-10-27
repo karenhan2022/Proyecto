@@ -1,3 +1,15 @@
-div{
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(87, 83, 87);
+    /*
     background-color: rgb(145, 131, 81);
+    */
 }
+
+.foot {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 20px;
+}
+
