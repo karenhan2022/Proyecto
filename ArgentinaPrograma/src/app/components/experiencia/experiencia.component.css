@@ -1,14 +1,40 @@
 div {
-    background-color: antiquewhite;
+    background-color:antiquewhite;
+    margin: 0 auto;
 }
 
 .row {
-    margin: 0 auto;
-    padding: 5%;
+    padding: 3% 5%;
+
+}
+
+h2 {
+    padding: 2%;
 }
 
 p {
     font-size: 1.2em;
+}
+@media (max-width: 678px) {
+
+    div{
+        background-color:antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 2%;    
+    }
+    
+    h2 {
+        margin: 10px 25px;
+    }
+       
+    .lista-experiencia {
+        margin-left: 20px;
+    }
+    .p {
+        font-size: medium;
+    }
 }
 
 

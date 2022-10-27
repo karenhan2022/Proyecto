@@ -1,23 +1,35 @@
 .row {
     width: 100%;
-    padding: 40px;
+    padding: 30px;
     margin-left: 0px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 
 
 .photo {
-    width: 80%;
+    width: 20%;
+    position: absolute;
+    margin: -120px 0px -5px 0;
+    background-color:lightgrey;
+    border-radius: 10%;
+    border: 10px solid white;
+    box-shadow: 2px 2px 5px;
+
+
+    /*
+    width: 120%;
+    position: relative;
     border: 5px solid darkkhaki;
     border-radius: 10%;
     margin-left: 10%;
-   
+   */
     
 }
 
 .photo:hover {
     transform: rotate(50deg);
+    transform:translate(150%)
     
 }
 
@@ -27,24 +39,12 @@
 
 .name {
     align-items: center;
-    margin-left: 3%;
+    color: rgb(87, 83, 87);
 }
 
-.fs {
-    margin: 3%; 
-}
-
-.name p {
-    margin-left: 3%;
-}
-.about p {
-    font-size: 1em;
-
-}
 
 .sobre {
-    position: static;
-   
+    position: static;  
 }
 
 
@@ -53,15 +53,18 @@
 @media (max-width: 678px) {
 
 div{
-    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 2%;
+
 }
 
 .photo {
-    width: 50%;
+    width: 40%;
+    position: absolute;
+    margin: -60px -10px -5px 0;
 }
 
 .name {
@@ -75,4 +78,10 @@ div{
 .p {
     font-size: medium;
 }
+
+.about {
+    text-align: center;
+}
+
+
 }

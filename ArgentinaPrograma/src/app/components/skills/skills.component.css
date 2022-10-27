@@ -6,26 +6,20 @@
     
 }
 
-h1 {
+h2 {
     color: bisque;
-}
-
-h3 {
-    margin:  20px 10px -40px 10px;
-    padding: 15px 20px;
-    color: antiquewhite;
 }
 
 .circle {
     width: 28%;
-    padding: 0 0 20px 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: bisque;
+    font-size: 1.6em;
 }
 
-@media screen (max-width: 450px;) {
-    .circle {
-        width: 30%;
-        padding: 0 0 20px 20px;
-    }}
+
+
     
 
 

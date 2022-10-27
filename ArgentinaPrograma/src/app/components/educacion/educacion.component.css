@@ -1,4 +1,4 @@
-div {
+/* div {
     background-color: white;
     width: 100%;   
 }
@@ -6,12 +6,51 @@ div {
 .row {
     padding: 5% 5% 0;
     margin: auto;
-    margin-top: -40px;
+} 
 
-}  
+p {
+    font-size: 1em;
+}
+
+*/
+
+div {
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+
+.row {
+    padding: 3% 5%;
+
+}
+
+h2 {
+    padding: 2%;
+}
 
 p {
     font-size: 1.2em;
 }
 
 
+@media (max-width: 678px) {
+
+    div{
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 2%;    
+    }
+    
+    h2 {
+        margin: 10px 25px;
+    }
+       
+    .lista-educacion {
+        margin-left: 20px;
+    }
+    .p {
+        font-size: medium;
+    }
+}
