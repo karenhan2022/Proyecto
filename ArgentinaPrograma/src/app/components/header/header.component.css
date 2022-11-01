@@ -1,4 +1,8 @@
-.container{
+.container {
+    width: 100%;
+}
+
+.fixed-top{
     background-color: rgb(87, 83, 87);
     /* background-color: rgb(145, 131, 81); */
     width: 100%;
@@ -9,6 +13,7 @@
     padding-left: 3%;
     padding-right: 3%;
 }
+
 
 #ArgProg {
     width: 180px;
@@ -30,23 +35,28 @@
     margin-left:10px;
 }
 
-#banner{
-    margin-top: 90px;
+#banner {
     width: 100%;
+    margin-top: 90px;
     height: 300px;
     object-fit: cover;
-    opacity: 100%;
 }
+
+/*#banner {
+    width: 100%;
+    margin-top: 90px;
+    height: 300px;
+    object-fit: cover;
+    visibility: hidden;
+
+    }
+    */
 
 @media (max-width:1020px) {
     #banner {
         margin-top: 80px;
     }
 }
-
-
-
-
 
 
 /*
